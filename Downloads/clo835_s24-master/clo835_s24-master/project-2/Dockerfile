@@ -8,8 +8,9 @@ WORKDIR /app
 
 COPY app.py /app
 
-# Make port 8000 available to the outside worl
-EXPOSE 8000
+# Make port 3000 available to the outside worl
+EXPOSE 3030
 
 #Run the app.y when container launches
 CMD ["python", "app.py"]
+
